@@ -1,0 +1,201 @@
+body
+{
+  color:#2c3e50;
+
+}
+
+.navbar .navbar-nav>li>a:not(.lang),.navbar .navbar-brand
+{
+  color:#ecf0f1;
+}
+.navbar .navbar-nav li:hover
+{
+   background-color: #ecf0f1;
+}
+.navbar .navbar-nav>li>a:hover
+{
+  color:#d35400;
+}
+.navbar .navbar-brand:hover
+{
+  color:#ecf0f1;
+}
+.summary div
+{
+  float:left;
+  margin:20px 25px 10px 0px;
+  font-size: 16px;
+}
+.summary span
+{
+  margin-right: 5px;
+}
+
+.green
+{
+  color:#27ae60;
+}
+.red
+{
+  color:#e74c3c;
+}
+.naslov_input:focus,.opis_textarea:focus
+{
+  box-shadow: 0px 0px 5px #d35400;
+  border: 1px solid #d35400;
+}
+
+a
+{
+  text-decoration: none;
+  color: inherit;
+
+}
+a:hover
+{
+  color: inherit;
+  text-decoration: underline;
+}
+.navbar-inner {
+  text-align:center;
+}
+
+.zavrsen_ikona
+{
+   color:green;
+}
+.nezavrsen_ikona
+{
+  color:red;
+}
+
+.opis_zadatka
+{
+  /*border: 1px solid red;*/
+  overflow: auto;
+  padding: 25px;
+}
+.opis_zadatka h3
+{
+  margin-bottom: 35px;
+}
+
+.opis_zadatka .des_label
+{
+   color:black;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.opis_zadatka .value
+{
+   font-size: 18px;
+}
+.datum_otvaranja
+{
+   color: gray;
+   font-style: italic;
+   margin-top: 25px;
+}
+
+.close_zad
+{
+   margin-top: 20px;
+   margin-left: 25px;
+}
+
+.zad_done
+{
+   color:#27ae60;
+   font-size: 50px;
+}
+
+.zad_not_done
+{
+   font-size:50px;
+}
+
+.show_zadatak_row
+{
+  border: 1px solid  rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.div_zad_done
+{
+  
+}
+
+.div_zad_not_done
+{
+  
+  font-size:50px;
+  color:#c0392b;
+  
+}
+.table thead>tr>th.vert_align, .table tbody>tr>td
+{
+    vertical-align: middle;
+}
+.navbar
+{
+  margin-bottom: 50px;
+  background-color: #d35400;
+  color: #ecf0f1;
+  border: 0;
+}
+
+.navbar_items:hover
+{
+   color:#2c3e50;
+}
+.datum_zav
+{
+   margin-top: 50px;
+   font-size: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+      .vertical-align {
+        display: flex;
+        align-items: center;
+        overflow: auto;
+      } 
+}
+
+@media screen and (max-width: 768px)
+{
+    .vertical-align
+    {
+       display: table;
+       padding: 0px;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+
+.row
+{
+  margin-bottom: 50px;
+}
+
+
+.upozorenje 
+{
+     margin-top: 75px;
+}
+
+.upozorenje p:first-of-type
+{
+  font-size: 25px;
+  margin-right: 10px;
+}
